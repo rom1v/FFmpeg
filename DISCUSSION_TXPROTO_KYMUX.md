@@ -263,4 +263,7 @@ de bout en bout, et nous avons besoin d'un outil de capture qui expose les
 paquets directement, sans les muxer dans un format existant qui ne serait pas
 approprié à notre usage.
 
+Pour résumer, _txproto_ n'est pas vraiment adapté pour une architecture où la
+capture et le mux sont dans des process séparés.
+
 Comment faire ça proprement?
